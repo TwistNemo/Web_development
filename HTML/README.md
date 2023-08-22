@@ -279,6 +279,13 @@ Examples of Non-Semantic Elements:
 
 ## Q. ***What is the purpose of `main` element?***
 
+Purpose of the <main> Element:
+Think of a book. The <main> element is like the table of contents of the book. It tells you where the most important information is located.
+
+Easy Example:
+Imagine a book about animals. In the table of contents (our <main> element), you see a chapter titled "Lions: Kings of the Jungle." You instantly know that this chapter is where the most important information about lions can be found.
+
+
 The HTML `<main>` element represents the dominant content of the `<body>` of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.
 
 ```html
