@@ -230,6 +230,8 @@ Faster Initial Loading: You get your meal faster (webpage loads quickly).
 SEO-Friendly: The dish is well-prepared and appealing (good for search engines).
 Consistency: Every customer gets a ready-to-eat meal (consistent experience).
 Accessibility: The restaurant ensures that the meal is accessible to all (good accessibility).
+
+
 Client-Side:
 
 In client-side processing, your browser does most of the work after receiving a basic webpage from the server.
@@ -263,9 +265,17 @@ The choice between them depends on factors like performance, SEO, interactivity,
 
 ## Q. ***What are semantic and non-semantic elements?***
 
-* **Semantic elements**: clearly describes its meaning to both the browser and the developer. For example: `<form>`, `<table>`,  `<article>`, `<aside>`, `<details>`, `<figcaption>`, `<figure>`, `<footer>`, `<header>`, `<main>`, `<mark>`, `<nav>`, `<section>`, `<summary>`, `<time>` clearly defines its content.
+* **Semantic elements**: clearly describes its meaning to both the browser and the developer.Semantic elements provide meaning and describe the structure of the content they enclose.
+They help browsers, search engines, and assistive technologies (like screen readers) understand the content's significance.
+ For example: `<form>`, `<table>`,  `<article>`, `<aside>`, `<details>`, `<figcaption>`, `<figure>`, `<footer>`, `<header>`, `<main>`, `<mark>`, `<nav>`, `<section>`, `<summary>`, `<time>` clearly defines its content.
   
-* **Non-semantic elements**: `<div>` and `<span>` tells nothing about its content. 
+* **Non-semantic elements**: `<div>` and `<span>` tells nothing about its content.
+Non-semantic elements are generic and don't convey specific meaning or structure to the content they contain.
+They are often used for layout and styling purposes.
+Examples of Non-Semantic Elements:
+
+`<div>`: A generic container for grouping content, often used for layout.
+`<span>`: A generic inline container for applying styles to a small part of text. 
 
 ## Q. ***What is the purpose of `main` element?***
 
