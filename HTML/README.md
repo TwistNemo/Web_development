@@ -144,13 +144,44 @@ So, to avoid this confusion and ensure your web page is displayed consistently a
 ## Q. ***What are the building blocks of HTML5?***
 
 * **Semantics**: allowing you to describe more precisely what your content is.
+<header>
+<nav>
+<section>
+<article>
+<aside>
+<footer>
+<main>
+<figure>
+<figcaption>
+<time>
+<mark>
+<meter>
+<progress>
+<details>
+<summary>
 * **Connectivity**: allowing you to communicate with the server in new and innovative ways.
+
 * **Offline and storage**: allowing webpages to store data on the client-side locally and operate offline more efficiently.
 * **Multimedia**: making video and audio first-class citizens in the Open Web.
+<img>
+<audio>
+<video>
+<source>
+<track>
 * **2D/3D graphics and effects**: allowing a much more diverse range of presentation options.
+<canvas>
+<audio>
+<video>
 * **Performance and integration**: providing greater speed optimization and better usage of computer hardware.
+<webworker>
+<iframe>
+<script>
+<link>
 * **Device access**: allowing for the usage of various input and output devices.
 * **Styling**: letting authors write more sophisticated themes.
+<style>: Lets you add CSS styles directly to your webpage.
+<link>: Links to external stylesheets.
+<div> and <span>: Generic container elements commonly used for styling and layout.
 
 ## Q. ***Describe the difference between a `cookie`, `sessionStorage` and `localStorage`?***
 
