@@ -72,10 +72,19 @@ There are multiple ways to set language in HTML
 
 ***The W3C Document Object Model (DOM) is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document.***
 
-Confused? Let me make that simple. Imagine that, every web page is a document and every element( be it text or image or table) inside that webpage is stored in that document as an object in a tree format, which can be manipulated later with a scripting language such as JavaScript. \
-<img src="assets/dom1.png" alt="Dom" /> \
-Now, when a web page is loaded, the browser creates such a document every time which is called, Document Object Model (DOM) of the page.\
-The DOM represents the document as nodes and objects so that programs can change the document structure, style, and content. In that hat way, programming languages connect to the webpage.
+Confused? Imagine a web page is like a recipe for a cake, and the DOM is like the cake itself.\
+
+HTML is the Recipe: HTML is like the recipe for the cake. It tells you what ingredients to use (text, images, links) and how to arrange them.\
+
+Browser's Job: When you open a web page, your web browser takes the HTML recipe and starts baking the cake (creating the DOM).\
+
+DOM is the Cake: The DOM is the cake that's created from the recipe (HTML). It's a structured representation of the web page's content.\
+
+Pieces of Cake: Every part of the cake (DOM) corresponds to something in the recipe (HTML). Each paragraph, image, link, or heading is like a slice of the cake, and you can work with these slices individually.\
+
+Interactive: The cool thing is, you can change the cake (DOM) on the fly. You can add new slices (elements), remove slices, or change the content of slices. This is how web pages can be interactive.\
+
+So, think of the DOM as the cake that represents a web page, created from its HTML recipe. It's what browsers use to display and interact with web content.
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
 </div>
