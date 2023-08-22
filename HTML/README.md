@@ -43,7 +43,8 @@
 -   The WHATWG was founded by individuals of Apple, the Mozilla Foundation, and Opera Software in 2004, after a W3C workshop. Apple, Mozilla and Opera were becoming increasingly concerned about the W3C’s direction with XHTML, lack of interest in HTML, and apparent disregard for the needs of real-world web developers. So, in response, these organisations set out with a mission to address these concerns and the Web Hypertext Application Technology Working Group was born
 
 ## Q. ***What is an iframe and how it works?***
-* An iframe is an HTML document which can be embedded inside another HTML page
+* An iframe, short for "inline frame," is like a window within a web page. It allows you to display another web page or content from a different source inside your current web page.
+Suppose you have a personal blog, and you want to embed a YouTube video in one of your blog posts. You can do this using an iframe. 
 **Example:*
 ```html
 <iframe src="https://github.com" height="300px" width="300px"></iframe>
@@ -125,7 +126,17 @@ The Doctype declaration informs the web browser about the type and version of HT
 
 ## Q. ***What happens when DOCTYPE is not given?***
 
-The web page is rendered in quirks mode. The web browsers engines use quirks mode to support older browsers which does not follow the **W3C specifications**. In quirks mode CSS class and id names are case insensitive. In standards mode they are case sensitive.
+When you don't provide a DOCTYPE in an HTML document, it's like baking a cake without a recipe. Here's a simple explanation of what happens:
+
+Chaos in the Kitchen: Imagine you're baking a cake, but you don't have a recipe to follow. You start mixing ingredients, but you're not sure about the quantities or the order.
+
+Browser Confusion: Similarly, when you don't provide a DOCTYPE in an HTML document, web browsers get confused. They don't know how to interpret and display the content properly because they don't have clear instructions.
+
+Quirks Mode: In this confused state, browsers often switch to something called "quirks mode." This mode attempts to guess how to display the content based on some default rules, but it's not consistent across different browsers.
+
+Inconsistent Results: Just like baking without a recipe might result in a cake that's too sweet, too salty, or just plain weird, not using a DOCTYPE can lead to inconsistent and unpredictable results in how your web page looks and behaves in different browsers.
+
+So, to avoid this confusion and ensure your web page is displayed consistently across various browsers, it's a good practice to include a DOCTYPE declaration at the beginning of your HTML document. It's like giving the browser a clear recipe to follow for rendering your web page correctly.
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
 </div>
