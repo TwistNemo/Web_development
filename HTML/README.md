@@ -144,8 +144,7 @@ So, to avoid this confusion and ensure your web page is displayed consistently a
 ## Q. ***What are the building blocks of HTML5?***
 
 * **Semantics**: allowing you to describe more precisely what your content is.
-<ul>
-    <li>
+
 header
 nav
 section
@@ -161,12 +160,11 @@ meter
 progress
 details
 summary
-</ul>
-    </li>
 * **Connectivity**: allowing you to communicate with the server in new and innovative ways.
 
 * **Offline and storage**: allowing webpages to store data on the client-side locally and operate offline more efficiently.
 * **Multimedia**: making video and audio first-class citizens in the Open Web.
+
 img
 audio
 video
@@ -189,11 +187,16 @@ div and span: Generic container elements commonly used for styling and layout.
 
 ## Q. ***Describe the difference between a `cookie`, `sessionStorage` and `localStorage`?***
 
-**localStorage:** localStorage is a way to store data on the client’s computer. It allows the saving of key/value pairs in a web browser and it stores data with no expiration date. localStorage can only be accessed via JavaScript, and HTML5. However, the user has the ability to clear the browser data/cache to erase all localStorage data.
+**localStorage:** Now, imagine you have a small storage box at home. You can put things in it and they'll stay there even after you leave the store. You can use them whenever you want.
+Example: A weather website using localStorage to remember your location preference, so it always shows you the weather for your chosen city when you visit, even if you close the browser and come back later.
 
-**SessionStorage:**  stores data only for a session, meaning that the data is stored until the browser (or tab) is closed.
+**SessionStorage:**  Think of sessionStorage like a sticky note you have while you're shopping in a store. You can write things on it, but it's only useful while you're inside the store.
+Example: A shopping website using sessionStorage to keep track of items in your cart while you shop, but it forgets them as soon as you leave the website.
 
-**cookie:** Stores data that has to be sent back to the server with subsequent XHR requests. Its expiration varies based on the type and the expiration duration can be set from either server-side or client-side .
+**cookie:** Imagine a bakery giving you a small stamp on your hand when you enter. They use this stamp to remember you and what you buy.
+Example: A website using a cookie to remember your username, so you don't have to log in every time you visit.
+
+In simple terms, cookies are like stamps for remembering things temporarily, sessionStorage is like a sticky note for a single visit, and localStorage is like a storage box for keeping things long-term, even after leaving a website.
 
 |                                        | `cookie`                                                 | `localStorage` | `sessionStorage` |
 | -------------------------------------- | -------------------------------------------------------- | -------------- | ---------------- |
