@@ -42,6 +42,14 @@
 -   The Web Hypertext Application Technology Working Group (WHATWG) is a community of people interested in evolving the web through standards and tests.
 -   The WHATWG was founded by individuals of Apple, the Mozilla Foundation, and Opera Software in 2004, after a W3C workshop. Apple, Mozilla and Opera were becoming increasingly concerned about the W3C’s direction with XHTML, lack of interest in HTML, and apparent disregard for the needs of real-world web developers. So, in response, these organisations set out with a mission to address these concerns and the Web Hypertext Application Technology Working Group was born
 
+## Q. ***What are symmetric tags in HTML??***
+In HTML, there is no specific "symmetric" tag. HTML tags are typically divided into two categories: "empty" or "void" tags, and "container" or "pair" tags.
+
+Empty or Void Tags: These tags do not have a closing tag and are used to insert elements that don't have any content inside them. They are self-closing. Examples include `<img>`, `<br>`, and `<input>`. For example:
+
+Container or Pair Tags: These tags have both an opening and a closing tag, and they enclose content between them. Examples include `<div>`, `<p>`, and `<a>`. For example:
+
+It's important to use container tags correctly by ensuring that they are properly opened and closed. In other words, every opening tag should have a corresponding closing tag. If tags are not properly nested or closed, it can lead to rendering issues and incorrect document structure.
 ## Q. ***What is an iframe and how it works?***
 * An iframe, short for "inline frame," is like a window within a web page. It allows you to display another web page or content from a different source inside your current web page.
 Suppose you have a personal blog, and you want to embed a YouTube video in one of your blog posts. You can do this using an iframe. 
